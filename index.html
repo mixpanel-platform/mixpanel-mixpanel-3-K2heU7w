@@ -18,7 +18,7 @@
       return conversions
     }
     
-    var from = moment().subtract(104, 'weeks');
+    var from = moment().day(1).subtract(104, 'weeks');
     var interval = 7;
     
       MP.api.ready(function() {
